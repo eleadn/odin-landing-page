@@ -27,6 +27,10 @@ body
 .footer
 {
     height: 72px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header, .footer, .hero
@@ -139,7 +143,7 @@ button
     border-radius: 8px;
 }
 
-.sign-up
+.hero-sign-up
 {
     border: none;
 }
@@ -162,4 +166,35 @@ button
     color: #1F2937;
     font-weight: bold;
     text-align: right;
+}
+
+.CTA-section
+{
+    padding: 124px 20%;
+}
+
+.CTA-box
+{
+    background-color: #3882F6;
+    padding: 48px 96px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.CTA-maintext
+{
+    font-size: larger;
+    color: white;
+    font-weight: bold;
+}
+
+.CTA-subtext
+{
+    color: white;
+}
+
+.CTA-sign-up
+{
+    border: solid;
+    border-color: white;
 }
