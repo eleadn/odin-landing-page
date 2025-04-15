@@ -8,6 +8,7 @@ body
     margin: 0;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 .header 
@@ -72,11 +73,12 @@ body
     font-size: 36px;
     color: #1F2937;
     font-weight: bold;
+    margin-bottom: 50px;
 }
 
 .info-section
 {
-    padding: 128px 0;
+    padding: 64px 0 128px 0;
 }
 
 .info-section ul
@@ -100,7 +102,8 @@ body
     height: 150px;
     border-style: solid;
     border-color: cadetblue;
-    border-radius: 8px;
+    border-radius: 16px;
+    margin-bottom: 8px;
 }
 
 .header-links
@@ -139,4 +142,24 @@ button
 .sign-up
 {
     border: none;
+}
+
+.quote-section
+{
+    padding: 124px 25%;
+    background-color: #E5E7EB;
+}
+
+.quote-text
+{
+    font-size: 36px;
+    font-style: oblique 20deg;
+    color: #1F2937;
+}
+
+.quote-author
+{
+    color: #1F2937;
+    font-weight: bold;
+    text-align: right;
 }
